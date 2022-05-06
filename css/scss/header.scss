@@ -2,10 +2,17 @@
 
 #header {
   width: 100%;
+  max-width: 1920px;
   padding: 12px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: $bg09;
+
+  position: fixed;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
 }
 
 .logo-frame {
@@ -22,5 +29,16 @@
     font-weight: $fw-bold;
     letter-spacing: 1px;
     display: inline-block;
+  }
+}
+
+.nav-frame {
+  display: flex;
+
+
+  .nav-item {
+    font-size: 20px;
+    font-weight: $fw-bold;
+    margin: 0 16px;
   }
 }
