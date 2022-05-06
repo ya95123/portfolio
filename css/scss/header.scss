@@ -1,0 +1,26 @@
+@import "variable.scss";
+
+#header {
+  width: 100%;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-frame {
+  display: flex;
+  align-items: center;
+
+  #logo {
+    width: 60px;
+  }
+
+  .logo-text {
+    margin: 0 0 0 6px;
+    font-size: 24px;
+    font-weight: $fw-bold;
+    letter-spacing: 1px;
+    display: inline-block;
+  }
+}
