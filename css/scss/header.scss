@@ -25,7 +25,7 @@
 
   .logo-text {
     margin: 0 0 0 6px;
-    font-size: 24px;
+    font-size: clamp(18px, 3.5vw, 24px);
     font-weight: $fw-bold;
     letter-spacing: 1px;
     display: inline-block;
@@ -35,10 +35,36 @@
 .nav-frame {
   display: flex;
 
-
   .nav-item {
-    font-size: 20px;
+    font-size: clamp(16px, 3vw, 20px);
     font-weight: $fw-bold;
     margin: 0 16px;
+  }
+}
+
+@media (max-width:$phone) {
+  #header {
+    padding: 8px 12px;
+  }
+
+  .logo-frame {
+
+    #logo {
+      width: 50px;
+    }
+
+    .logo-text {
+      margin: 0 0 0 4px;
+    }
+  }
+
+  .nav-frame {
+    .nav-item {
+      margin: 0 6px;
+
+      &:nth-last-child(1) {
+        margin: 0 0 0 6px;
+      }
+    }
   }
 }
