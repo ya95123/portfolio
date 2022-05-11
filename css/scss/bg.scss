@@ -14,7 +14,7 @@
   position: absolute;
 
   @for $i from 1 through 5 {
-    $size: (20 + random(45))*1px;
+    $size: (20 + random(50))*1px;
     $left: (5 + random(85))*1%;
     $top: (15 + random(70))*1%;
     $opacity: (75 + random(15))/100;
@@ -25,6 +25,36 @@
       left: $left !important;
       top: $top !important;
       opacity: $opacity;
+    }
+  }
+}
+
+@media (max-width:$pad) {
+  .bubble {
+    @for $i from 1 through 5 {
+      $size: (3 + random(5))*1vw;
+      $left: (2 + random(90))*1%;
+      $top: (10 + random(80))*1%;
+
+      &:nth-child(#{$i}) {
+        width: $size;
+        height: $size;
+        left: $left !important;
+        top: $top !important;
+      }
+    }
+  }
+}
+
+@media (max-width:$phone) {
+  .bubble {
+    @for $i from 1 through 5 {
+      $size: (4 + random(6))*1vw;
+
+      &:nth-child(#{$i}) {
+        width: $size;
+        height: $size;
+      }
     }
   }
 }
