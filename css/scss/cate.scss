@@ -1,0 +1,40 @@
+@import "variable.scss";
+
+#cate {
+  padding: 0 24px;
+  margin: 84px 0 0;
+}
+
+.cate-btn {
+  padding: 2px 14px 4px;
+  margin: 12px 8px 24px 0;
+  background: transparent;
+
+  border-radius: 23px;
+  border: 2px solid #000;
+
+  font-size: 18px;
+  font-weight: $fw-bold;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: $trans-text;
+
+  &:hover {
+    border: 2px solid $bg-btn;
+    color: $bg-btn;
+    opacity: 1;
+  }
+}
+
+@media (max-width:$phone) {
+  #cate {
+    padding: 8px 12px 0;
+    margin: 66px 0 0;
+  }
+
+  .cate-btn {
+    padding: 2px 14px 4px;
+    margin: 0 8px 14px 0;
+    font-size: 16px;
+  }
+}

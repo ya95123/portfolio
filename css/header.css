@@ -17,6 +17,7 @@
   top: 0;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 99;
 }
 
 .logo-frame {

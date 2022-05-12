@@ -19,10 +19,11 @@
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/bg.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/cate.css">
 </head>
 
 <body>
-  <!-- bg -->
+  <!-- *bg -->
   <section id="bg">
     <div class="bubble" data-depth="0.2"></div>
     <div class="bubble" data-depth="0.3"></div>
@@ -31,7 +32,7 @@
     <div class="bubble" data-depth="0.7"></div>
   </section>
 
-  <!-- top header -->
+  <!-- *top header -->
   <header id="header">
     <div class="logo-frame">
       <img id="logo" src="img/logo.svg" alt="宇">
@@ -44,13 +45,21 @@
     </div>
   </header>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- *cate -->
+  <section id="cate">
+    <button id="cate-all" class="cate-btn">全部</button>
+    <button id="cate-news" class="cate-btn">新聞網站</button>
+    <button id="cate-event" class="cate-btn">活動宣傳</button>
+    <button id="cate-map" class="cate-btn">地圖功能</button>
+    <button id="cate-game" class="cate-btn">遊戲互動</button>
+  </section>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script>
-    var scene = document.getElementById('bg');
-    var parallaxInstance = new Parallax(scene, {
+    const scene = document.getElementById("bg")
+    const parallaxInstance = new Parallax(scene, {
       relativeInput: true
-    });
+    })
   </script>
 </body>
 
