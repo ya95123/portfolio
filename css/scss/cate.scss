@@ -3,6 +3,13 @@
 #cate {
   padding: 0 24px;
   margin: 84px 0 0;
+  position: relative;
+
+  .active {
+    border: 2px solid $bg-btn;
+    color: $bg-btn;
+    opacity: 1;
+  }
 }
 
 .cate-btn {

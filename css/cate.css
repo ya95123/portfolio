@@ -1,6 +1,13 @@
 #cate {
   padding: 0 24px;
   margin: 84px 0 0;
+  position: relative;
+}
+
+#cate .active {
+  border: 2px solid #719A5E;
+  color: #719A5E;
+  opacity: 1;
 }
 
 .cate-btn {
@@ -18,8 +25,8 @@
 }
 
 .cate-btn:hover {
-  border: 2px solid #82B068;
-  color: #82B068;
+  border: 2px solid #719A5E;
+  color: #719A5E;
   opacity: 1;
 }
 
