@@ -4,9 +4,33 @@
   position: relative;
 }
 
-#cate .active {
-  border: 2px solid #719A5E;
-  color: #719A5E;
+#cate .active:nth-child(1) {
+  border: 2px solid #79C362;
+  color: #79C362;
+  opacity: 1;
+}
+
+#cate .active:nth-child(2) {
+  border: 2px solid #00BFB2;
+  color: #00BFB2;
+  opacity: 1;
+}
+
+#cate .active:nth-child(3) {
+  border: 2px solid #006AD1;
+  color: #006AD1;
+  opacity: 1;
+}
+
+#cate .active:nth-child(4) {
+  border: 2px solid #F79563;
+  color: #F79563;
+  opacity: 1;
+}
+
+#cate .active:nth-child(5) {
+  border: 2px solid #F25D5A;
+  color: #F25D5A;
   opacity: 1;
 }
 
@@ -24,9 +48,33 @@
   transition: 0.25s;
 }
 
-.cate-btn:hover {
-  border: 2px solid #719A5E;
-  color: #719A5E;
+.cate-btn:nth-child(1):hover {
+  border: 2px solid #79C362;
+  color: #79C362;
+  opacity: 1;
+}
+
+.cate-btn:nth-child(2):hover {
+  border: 2px solid #00BFB2;
+  color: #00BFB2;
+  opacity: 1;
+}
+
+.cate-btn:nth-child(3):hover {
+  border: 2px solid #006AD1;
+  color: #006AD1;
+  opacity: 1;
+}
+
+.cate-btn:nth-child(4):hover {
+  border: 2px solid #F79563;
+  color: #F79563;
+  opacity: 1;
+}
+
+.cate-btn:nth-child(5):hover {
+  border: 2px solid #F25D5A;
+  color: #F25D5A;
   opacity: 1;
 }
 
