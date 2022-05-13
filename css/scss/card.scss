@@ -15,6 +15,11 @@
   border: 2px solid $border-card;
   border-radius: 18px;
   overflow: hidden;
+
+  &:hover .card-img {
+    opacity: 1;
+    filter: contrast(1.2);
+  }
 }
 
 .card-img-frame {
@@ -24,15 +29,44 @@
   border-radius: 18px;
   position: relative;
   overflow: hidden;
+
+  .card-img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: $trans-normal ease-in;
+  }
 }
 
-.card-img {
-  width: 100%;
-  object-fit: cover;
-  // position: absolute;
-  // left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%);
+
+.card-tag-frame {
+  padding: 10px 2px 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+
+  .card-tag {
+    padding: 2px 6px;
+    border-radius: 23px;
+    color: $bg;
+    cursor: default;
+
+    &[data-cate=news] {
+      background: $btn-1;
+    }
+  }
+}
+
+.card-text-frame {
+  padding: 0 2px 0 3px;
+  text-align: justify;
+
+  .card-title {
+    padding: 4px 0 5px;
+    font-size: 18px;
+    font-weight: $fw-bold;
+  }
 }
 
 @media (max-width:$phone) {
