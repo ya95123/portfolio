@@ -116,23 +116,23 @@
 
 @media (max-width:$table) {
   .card-frame {
-    width: calc((100% - (24px * 3)) / 3);
-    padding: 12px;
-    margin: 0 0 16px;
-    background: $bg09;
-    border: 2px solid $border-card;
-    border-radius: 18px;
-    overflow: hidden;
+    width: calc((100% - (24px * 2 + 12px * 2)) / 3);
+  }
+}
 
-    &:hover .card-img {
-      opacity: 1;
-      filter: contrast(1.2);
-    }
+@media (max-width:$pad) {
+  .card-frame {
+    width: calc((100% - (24px * 1 + 12px * 2)) / 2);
   }
 }
 
 @media (max-width:$phone) {
   #card {
     padding: 0 12px;
+  }
+
+  .card-frame {
+    width: 100%;
+    margin: 12px 0 15px;
   }
 }
