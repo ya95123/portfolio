@@ -1,16 +1,16 @@
 @import "variable.scss";
 
 #card {
-  padding: 12px 24px;
+  padding: 12px 12px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
 }
 
 .card-frame {
-  width: calc((100% - (24px * 3)) / 4);
+  width: calc((100% - (24px * 3 + 12px * 2)) / 4);
   padding: 12px;
-  margin: 0 0 16px;
+  margin: 0 12px 40px;
   background: $bg09;
   border: 2px solid $border-card;
   border-radius: 18px;
@@ -66,6 +66,23 @@
     padding: 4px 0 5px;
     font-size: 18px;
     font-weight: $fw-bold;
+  }
+}
+
+@media (max-width:$table) {
+  .card-frame {
+    width: calc((100% - (24px * 3)) / 3);
+    padding: 12px;
+    margin: 0 0 16px;
+    background: $bg09;
+    border: 2px solid $border-card;
+    border-radius: 18px;
+    overflow: hidden;
+
+    &:hover .card-img {
+      opacity: 1;
+      filter: contrast(1.2);
+    }
   }
 }
 
