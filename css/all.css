@@ -16,6 +16,18 @@ body {
   color: #000;
 }
 
+html ::-moz-selection,
+body ::-moz-selection {
+  background: #313131;
+  color: #F2F2F2;
+}
+
+html ::selection,
+body ::selection {
+  background: #313131;
+  color: #F2F2F2;
+}
+
 body {
   width: 100%;
   max-width: 1920px;
