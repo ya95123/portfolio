@@ -16,7 +16,7 @@ body {
   color: $text-color;
 
   ::selection {
-    background: #313131;
+    background: $grey;
     color: $bg;
   }
 }
