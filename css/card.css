@@ -16,6 +16,24 @@
   border: 2px solid #000;
   border-radius: 18px;
   overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card-frame:hover[data-card=news] .fa-link {
+  color: #00BFB2;
+}
+
+.card-frame:hover[data-card=event] .fa-link {
+  color: #006AD1;
+}
+
+.card-frame:hover[data-card=map] .fa-link {
+  color: #F79563;
+}
+
+.card-frame:hover[data-card=game] .fa-link {
+  color: #F25D5A;
 }
 
 .card-frame:hover .card-img {
@@ -65,6 +83,18 @@
   background: #00BFB2;
 }
 
+.card-tag-frame .card-tag[data-cate=event] {
+  background: #006AD1;
+}
+
+.card-tag-frame .card-tag[data-cate=map] {
+  background: #F79563;
+}
+
+.card-tag-frame .card-tag[data-cate=game] {
+  background: #F25D5A;
+}
+
 .card-text-frame {
   padding: 0 2px 0 3px;
   text-align: justify;
@@ -74,6 +104,13 @@
   padding: 4px 0 5px;
   font-size: 18px;
   font-weight: 700;
+}
+
+.card-text-frame .fa-link {
+  margin: 0 0 0 2px;
+  color: #929292;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
 }
 
 @media (max-width: 1200px) {

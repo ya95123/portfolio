@@ -15,10 +15,37 @@
   border: 2px solid $border-card;
   border-radius: 18px;
   overflow: hidden;
+  transition: 0.3s;
 
-  &:hover .card-img {
-    opacity: 1;
-    filter: contrast(1.2);
+  &:hover {
+    &[data-card=news] {
+      .fa-link {
+        color: $btn-1;
+      }
+    }
+
+    &[data-card=event] {
+      .fa-link {
+        color: $btn-2;
+      }
+    }
+
+    &[data-card=map] {
+      .fa-link {
+        color: $btn-3;
+      }
+    }
+
+    &[data-card=game] {
+      .fa-link {
+        color: $btn-4;
+      }
+    }
+
+    .card-img {
+      opacity: 1;
+      filter: contrast(1.2);
+    }
   }
 }
 
@@ -55,6 +82,18 @@
     &[data-cate=news] {
       background: $btn-1;
     }
+
+    &[data-cate=event] {
+      background: $btn-2;
+    }
+
+    &[data-cate=map] {
+      background: $btn-3;
+    }
+
+    &[data-cate=game] {
+      background: $btn-4;
+    }
   }
 }
 
@@ -66,6 +105,12 @@
     padding: 4px 0 5px;
     font-size: 18px;
     font-weight: $fw-bold;
+  }
+
+  .fa-link {
+    margin: 0 0 0 2px;
+    color: $grey-light;
+    transition: color $trans-text;
   }
 }
 
