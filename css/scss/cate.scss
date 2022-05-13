@@ -1,8 +1,7 @@
 @import "variable.scss";
 
 #cate {
-  padding: 0 24px;
-  margin: 84px 0 0;
+  padding: 84px 24px 0;
   position: relative;
 
   .active {
@@ -41,8 +40,7 @@
 
 @media (max-width:$phone) {
   #cate {
-    padding: 8px 12px 0;
-    margin: 66px 0 0;
+    padding: 72px 12px 0;
   }
 
   .cate-btn {
