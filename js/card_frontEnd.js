@@ -12,7 +12,7 @@ dataCard.forEach(item => {
         <img class="card-img" loading="lazy" src="${item.imgSrc}">
       </div>
       <div class="card-tag-frame">
-        <span class="card-tag" data-cate="${item.cate}">活動宣傳</span>
+        <span class="card-tag" data-cate="${item.cate}">${item.cateName}</span>
         <span class="card-time">${item.time}</span>
       </div>
       <div class="card-text-frame">
