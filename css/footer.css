@@ -1,5 +1,5 @@
 footer {
-  padding: 20px 0 50px;
+  padding: 20px 0 26px;
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 2.5;
@@ -23,12 +23,15 @@ footer {
 }
 
 .footer-href {
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
 }
 
 .footer-href:hover {
-  opacity: 0.85;
+  color: #79C362;
 }
 
 .footer-left,
@@ -71,7 +74,7 @@ footer {
 
 @media (max-width: 640px) {
   footer {
-    padding: 21px 0 36px;
+    padding: 21px 0 30px;
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 2;

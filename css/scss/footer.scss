@@ -1,7 +1,7 @@
 @import "variable.scss";
 
 footer {
-  padding: 20px 0 50px;
+  padding: 20px 0 26px;
 
   font-size: 14px;
   letter-spacing: 2px;
@@ -22,10 +22,11 @@ footer {
 }
 
 .footer-href {
-  transition: opacity $trans-text;
+  width: fit-content;
+  transition: color $trans-text;
 
   &:hover {
-    opacity: 0.85;
+    color: $btn-0;
   }
 }
 
@@ -58,7 +59,7 @@ footer {
 
 @media (max-width:$phone) {
   footer {
-    padding: 21px 0 36px;
+    padding: 21px 0 30px;
 
     font-size: 12px;
     letter-spacing: 1px;
