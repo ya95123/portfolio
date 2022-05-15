@@ -69,7 +69,6 @@
   font-size: 14px;
   letter-spacing: 1px;
   display: flex;
-  justify-content: space-between;
 
   .card-tag {
     padding: 4px 6px;
@@ -93,6 +92,15 @@
     &[data-cate=game] {
       background: $btn-4;
     }
+  }
+
+  .card-company {
+    margin: 0 0 0 6px;
+    color: $grey-light;
+  }
+
+  .card-time {
+    margin: 0 0 0 auto;
   }
 }
 

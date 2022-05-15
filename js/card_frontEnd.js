@@ -13,6 +13,7 @@ dataCard.forEach(item => {
       </div>
       <div class="card-tag-frame">
         <span class="card-tag" data-cate="${item.cate}">${item.cateName}</span>
+        <span class="card-company">${item.company}</span>
         <span class="card-time">${item.time}</span>
       </div>
       <div class="card-text-frame">

@@ -65,9 +65,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .card-tag-frame .card-tag {
@@ -92,6 +89,15 @@
 
 .card-tag-frame .card-tag[data-cate=game] {
   background: #F25D5A;
+}
+
+.card-tag-frame .card-company {
+  margin: 0 0 0 6px;
+  color: #929292;
+}
+
+.card-tag-frame .card-time {
+  margin: 0 0 0 auto;
 }
 
 .card-text-frame {
