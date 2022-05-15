@@ -46,6 +46,7 @@
   padding-bottom: 56.25%;
   border-radius: 18px;
   position: relative;
+  display: block;
   overflow: hidden;
 }
 

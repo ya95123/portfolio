@@ -8,9 +8,9 @@ dataCard.forEach(item => {
   card.insertAdjacentHTML("beforeEnd",
     `
     <div class="card-frame" data-card="${item.cate}">
-      <div class="card-img-frame">
+      <a class="card-img-frame" href="${item.url}" target="_blank">
         <img class="card-img" loading="lazy" src="${item.imgSrc}">
-      </div>
+      </a>
       <div class="card-tag-frame">
         <span class="card-tag" data-cate="${item.cate}">${item.cateName}</span>
         <span class="card-company">${item.company}</span>
