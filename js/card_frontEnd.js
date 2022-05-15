@@ -1,7 +1,6 @@
 import data_fontEnd from "./data_frontEnd.js"
 const card = document.getElementById("card")
 const dataCard = data_fontEnd.card
-console.log(dataCard)
 
 // 製造卡片
 dataCard.forEach(item => {
