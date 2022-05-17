@@ -13,75 +13,75 @@
 }
 
 .bubble:nth-child(1) {
-  width: 65px;
-  height: 65px;
-  left: 19% !important;
-  top: 32% !important;
-  opacity: 0.8;
+  width: 34px;
+  height: 34px;
+  left: 77% !important;
+  top: 50% !important;
+  opacity: 0.83;
 }
 
 .bubble:nth-child(2) {
-  width: 57px;
-  height: 57px;
-  left: 87% !important;
-  top: 36% !important;
-  opacity: 0.82;
+  width: 22px;
+  height: 22px;
+  left: 31% !important;
+  top: 82% !important;
+  opacity: 0.88;
 }
 
 .bubble:nth-child(3) {
-  width: 64px;
-  height: 64px;
-  left: 28% !important;
-  top: 48% !important;
-  opacity: 0.76;
+  width: 65px;
+  height: 65px;
+  left: 11% !important;
+  top: 59% !important;
+  opacity: 0.81;
 }
 
 .bubble:nth-child(4) {
-  width: 44px;
-  height: 44px;
-  left: 19% !important;
-  top: 56% !important;
-  opacity: 0.87;
+  width: 45px;
+  height: 45px;
+  left: 79% !important;
+  top: 48% !important;
+  opacity: 0.77;
 }
 
 .bubble:nth-child(5) {
-  width: 26px;
-  height: 26px;
-  left: 63% !important;
-  top: 73% !important;
-  opacity: 0.81;
+  width: 29px;
+  height: 29px;
+  left: 59% !important;
+  top: 25% !important;
+  opacity: 0.78;
 }
 
 @media (max-width: 992px) {
   .bubble:nth-child(1) {
-    width: 6vw;
-    height: 6vw;
-    left: 18% !important;
-    top: 37% !important;
+    width: 7vw;
+    height: 7vw;
+    left: 61% !important;
+    top: 70% !important;
   }
   .bubble:nth-child(2) {
-    width: 6vw;
-    height: 6vw;
-    left: 74% !important;
-    top: 34% !important;
+    width: 4vw;
+    height: 4vw;
+    left: 48% !important;
+    top: 52% !important;
   }
   .bubble:nth-child(3) {
-    width: 8vw;
-    height: 8vw;
-    left: 61% !important;
-    top: 51% !important;
+    width: 7vw;
+    height: 7vw;
+    left: 92% !important;
+    top: 26% !important;
   }
   .bubble:nth-child(4) {
-    width: 7vw;
-    height: 7vw;
-    left: 9% !important;
-    top: 81% !important;
+    width: 8vw;
+    height: 8vw;
+    left: 5% !important;
+    top: 22% !important;
   }
   .bubble:nth-child(5) {
-    width: 7vw;
-    height: 7vw;
-    left: 79% !important;
-    top: 77% !important;
+    width: 5vw;
+    height: 5vw;
+    left: 75% !important;
+    top: 78% !important;
   }
 }
 
@@ -91,19 +91,19 @@
     height: 9vw;
   }
   .bubble:nth-child(2) {
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 7vw;
   }
   .bubble:nth-child(3) {
-    width: 5vw;
-    height: 5vw;
+    width: 7vw;
+    height: 7vw;
   }
   .bubble:nth-child(4) {
     width: 8vw;
     height: 8vw;
   }
   .bubble:nth-child(5) {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
   }
 }
