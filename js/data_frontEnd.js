@@ -6,20 +6,20 @@ const data_fontEnd = {
       "cateName": "活動宣傳",
       "company": "聯合線上",
       "title": "NBA 總冠軍賽賓果｜NBA 台灣｜聯合新聞網",
-      "intro": "用 JS 做出賓果排序與選擇，再跟後端溝通串接 API 完成賓果功能。5/16 - 5/31 正好是活動期間，可點入參與活動。",
+      "intro": "用 JS 做出賓果排序與選擇，再跟後端溝通串接 API 完成賓果功能。",
       "url": "https://nba.udn.com/finalsbingo/",
       "imgSrc": "img/fontEndWorks/202205_udnNBA.jpg"
     },
-    {
-      "time": "2022 / 4",
-      "cate": "event",
-      "cateName": "活動宣傳",
-      "company": "聯合線上",
-      "title": "繽紛戳戳樂",
-      "intro": "用 CSS 寫出戳洞動畫，並串接 API 做出與使用者的問答互動、頁面資訊的修改。5/1 - 6/1 正好是活動期間，可點入參與活動。",
-      "url": "https://event.udn.com/member/2022poke/",
-      "imgSrc": "img/fontEndWorks/202204_udnMemberPoke.jpg"
-    },
+    // {
+    //   "time": "2022 / 4",
+    //   "cate": "event",
+    //   "cateName": "活動宣傳",
+    //   "company": "聯合線上",
+    //   "title": "繽紛戳戳樂",
+    //   "intro": "用 CSS 寫出戳洞動畫，並串接 API 做出與使用者的問答互動、頁面資訊的修改。5/1 - 6/1 正好是活動期間，可點入參與活動。",
+    //   "url": "https://event.udn.com/member/2022poke/",
+    //   "imgSrc": "img/fontEndWorks/202204_udnMemberPoke.jpg"
+    // },
     {
       "time": "2022 / 3",
       "cate": "event",
